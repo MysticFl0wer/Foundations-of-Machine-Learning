@@ -10,7 +10,7 @@ from sklearn.metrics import mean_squared_error
 import numpy as np
 from sklearn.model_selection import train_test_split
 
-path = r"C:\Users\0753780\Downloads\taylor_swift_discography_updated.csv"
+path = r"taylor_swift_discography_updated.csv"
 disc_data = pd.read_csv(path, sep=';') #separates the columns by ';'
             
 independent = ['tempo']
