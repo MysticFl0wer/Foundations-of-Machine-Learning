@@ -27,7 +27,7 @@ def clean_data(dataFrame, cols=[]):
     
     return dataFrame
 
-dataset_path = r"C:\Users\0753780\Downloads\voter-records.txt"
+dataset_path = r"voter-records.txt"
 file = open(dataset_path)
 
 features = ['political-party', 'handicapped-infants', 'water-project-cost-sharing', 'adoption-of-the-budget-resolution',
