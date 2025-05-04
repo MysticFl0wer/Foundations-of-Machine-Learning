@@ -9,7 +9,7 @@ from sklearn.metrics import confusion_matrix
 from sklearn.metrics import ConfusionMatrixDisplay
 import seaborn as sns
 
-path = r"C:\Users\0753780\Downloads\Pathway Selection _ Personality Survey(Sheet1).csv"
+path = r"Pathway Selection _ Personality Survey(Sheet1).csv"
 df = pd.read_csv(path)
 
 print(df.head())
