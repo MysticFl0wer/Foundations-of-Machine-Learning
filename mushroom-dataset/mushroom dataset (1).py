@@ -22,7 +22,7 @@ categorial_features = ['poisonous', 'cap-shape', 'cap-surface', 'cap-color', 'br
                        'stalk-surface-below-ring', 'stalk-color-above-ring', 'stalk-color-below-ring', 'veil-type', 'veil-color', 'ring-number', 'ring-type', 'spore-print-color',
                        'ring-number', 'ring-type','spore-print-color' ,'population', 'habitat']
 
-path = r"C:\Users\0753780\Downloads\mushroom\agaricus-lepiota.txt"
+path = r"agaricus-lepiota.txt"
 file = open(path)
 #read the data as a csv to convert to DataFrame
 #this is done because the original file doesn't have the column names
