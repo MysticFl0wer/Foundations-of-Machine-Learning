@@ -7,13 +7,18 @@ import pathlib
 import numpy as np
 import tensorflow as tf
 
+"""
+The dataset can be found at
+https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+"""
+
 batch_size = 32
 img_height = 180
 img_width = 180
 image_size = (img_width, img_height)
 epochs = 25
 
-archive = r"C:\Users\0753780\Downloads\archive\chest_xray\chest_xray\train" #the folder where all the testing images are
+archive = r"archive\chest_xray\chest_xray\train" #the folder where all the testing images are
 data_dir = pathlib.Path(archive).with_suffix('')
 
 train_ds = keras.utils.image_dataset_from_directory(
